@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void vigenere_cipher(char *plaintext, int *key) {
+    // One-time pad Vigenère cipher logic
+}
+
+int main() {
+    char plaintext[] = "HELLO";
+    int key[] = {3, 19, 5};
+    vigenere_cipher(plaintext, key);
+    return 0;
+}
